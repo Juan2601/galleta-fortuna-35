@@ -1,0 +1,22 @@
+.card__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(210, 105, 30);
+    color: white;
+    margin-left: auto;
+    font-weight: 300; 
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5em;    
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card__btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em #0004;
+    background-color: rgb(210, 105, 30, 0.8);
+    color: white;
+}
